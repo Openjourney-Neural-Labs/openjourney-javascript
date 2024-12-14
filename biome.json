@@ -12,7 +12,7 @@
   },
   "javascript": {
     "formatter": {
-      "trailingComma": "es5"
+      "javascript.formatter.trailingCommas": "es5"
     }
   },
   "linter": {
