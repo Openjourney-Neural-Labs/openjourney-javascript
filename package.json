@@ -1,10 +1,6 @@
 {
   "name": "openjourney",
-<<<<<<< HEAD
   "version": "1.0.1",
-=======
-  "version": "1.0.0",
->>>>>>> 6457d63626653d3f7e5e057e21e87e13f921f892
   "author": "Openjourney Neural Labs",
   "description": "JavaScript client for Openjourney API",
   "repository": "github:openjourney-neural-labs/openjourney-javascript",
