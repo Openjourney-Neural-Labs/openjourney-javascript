@@ -59,7 +59,11 @@ class Openjourney {
         await new Promise((resolve) => {
             const interval = setInterval(async () => {
                 job = await this.request(`/job/${job.id}`);
+<<<<<<< HEAD
                 if (job.status === 'succeeded' || job.status === 'failed' || job.status === 'cancelled') {
+=======
+                if (job.status !== 'starting' && job.status !== 'booting' && job.status !== 'processing') {
+>>>>>>> 6457d63626653d3f7e5e057e21e87e13f921f892
                     clearInterval(interval);
                     resolve();
                 }
